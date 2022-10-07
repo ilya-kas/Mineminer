@@ -5,4 +5,4 @@ It is a 3d game with isometric view. User has 2 tools to dig blocks in front of 
 **Platform -** Android <br>
 **Language -** Kotlin, C# <br>
 **Frameworks & libraries -** Unity, Dagger 2, Coroutines, Room database, Material design <br>
-**Architecture -** Architecture - Clean archtecture over MVMM
+**Architecture -** Clean archtecture over MVMM
