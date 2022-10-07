@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app_level.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/unity_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/ll_instruments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90999997"
+        android:background="@color/inactive">
+
+        <ImageView
+            android:id="@+id/iv_pixar"
+            android:layout_width="100dp"
+            android:src="@drawable/iron_pickaxe"
+            android:scaleType="fitXY"
+            android:layout_height="100dp" />
+
+        <ImageView
+            android:id="@+id/iv_shovel"
+            android:layout_width="100dp"
+            android:src="@drawable/iron_shovel"
+            android:scaleType="fitXY"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_backpack"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bagpack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
